@@ -1,0 +1,23 @@
+body{
+    padding: 1rem;
+    width: fit-content;
+    margin: 25vh auto;
+    text-align: center;
+}
+.wallet{
+    display: grid;
+    justify-items: center;
+    padding: 2rem;
+}
+.color{
+    padding: 1rem 0.5rem;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+}
+.color::before{
+    content: '#';
+}
+h1,h2{
+    color: white;
+    text-shadow: 0 0 10px black;
+}
